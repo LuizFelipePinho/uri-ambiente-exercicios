@@ -1,4 +1,4 @@
-var input = require('fs').readFileSync('../../dev/stdin/file.txt', 'utf-8');
+var input = require('fs').readFileSync('../dev/stdin/file.txt', 'utf-8');
 var lines = input.split('\n');
 
 let numFunc = parseInt(lines.shift());
